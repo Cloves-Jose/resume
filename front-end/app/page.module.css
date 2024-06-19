@@ -1,0 +1,9 @@
+.container {
+  background-color: #fff;
+  align-items: flex-start;
+}
+
+.containerProfile {
+  display: flex;
+  align-items: flex-start;
+}
