@@ -1,6 +1,9 @@
 [build]
-  command = "next build && next export"
+  command = "npm run build"
   publish = "out"
+
+[build.environment]
+  RUBY_VERSION = "2.7.2"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
