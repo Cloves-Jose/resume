@@ -3,7 +3,7 @@ import { Montserrat } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import { Col } from "react-bootstrap";
-import Sidebar from "./components/sidebar/page";
+import Sidebar from "./components/sidebar/sidebar";
 
 const inter = Montserrat({ 
   subsets: ["latin"],
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} style={{ display: "flex" }}>
-        <Col md={3}>
+        <Col md={3} style={{ position: "fixed" }}>
           <Sidebar/>
         </Col>
         {children}
