@@ -12,7 +12,7 @@ export default function Sidebar() {
         <Container fluid className={style.container}>
             <Row>
                 <div className={style.containerPhoto}>
-                    <Image src={image} alt='Cloves José' width={200} height={200} style={{ borderRadius: "100%", margin: "0px", padding: "0px" }}/>
+                    <Image src={image} alt='Cloves José' width={180} height={180} style={{ borderRadius: "100%", margin: "0px", padding: "0px" }}/>
                 </div>
                 <div className={style.containerInfo}>
                     <p className={style.name}>Cloves Duarte</p>
